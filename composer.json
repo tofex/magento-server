@@ -1,6 +1,6 @@
 {
   "name": "tofex/magento-server-project",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "type": "project",
   "description": "Tofex Magento Server Project",
   "license": "MIT",
@@ -33,5 +33,12 @@
       "composer/installers": true,
       "tofex/magento-server-installer": true
     }
-  }
+  },
+  "minimum-stability": "stable",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.tofex.de/"
+    }
+  ]
 }
