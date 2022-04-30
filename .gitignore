@@ -1,0 +1,16 @@
+/.idea
+/build
+/config
+/core
+/deploy
+/env
+/ini
+/install
+/media
+/mysql
+/ops
+/solr
+/source
+/static
+/vendor
+/composer.lock

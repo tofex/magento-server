@@ -1,0 +1,37 @@
+{
+  "name": "tofex/magento-server-project",
+  "version": "1.7.0",
+  "type": "project",
+  "description": "Tofex Magento Server Project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andreas Knollmann",
+      "email": "a.knollmann@tofex.de",
+      "homepage": "https://www.tofex.de"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "tofex/magento-server-build": "~1.0.0",
+    "tofex/magento-server-config": "~1.0.0",
+    "tofex/magento-server-core": "~1.0.0",
+    "tofex/magento-server-deploy": "~1.0.0",
+    "tofex/magento-server-env": "~1.0.0",
+    "tofex/magento-server-ini": "~1.0.0",
+    "tofex/magento-server-install": "~1.0.0",
+    "tofex/magento-server-installer": "~1.2.0",
+    "tofex/magento-server-media": "~1.0.0",
+    "tofex/magento-server-mysql": "~1.0.0",
+    "tofex/magento-server-ops": "~1.0.0",
+    "tofex/magento-server-solr": "~1.0.0",
+    "tofex/magento-server-source": "~1.0.0",
+    "tofex/magento-server-static": "~1.0.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "tofex/magento-server-installer": true
+    }
+  }
+}
